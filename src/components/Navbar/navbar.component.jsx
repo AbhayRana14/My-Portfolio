@@ -14,8 +14,8 @@ const MyNavbar = () => {
         expand="md" 
         variant="dark" 
         className="animate-navbar nav-theme justify-content-between" >
-          <Navbar.Brand href="#home">
-              <img className="logo" src={Logo} alt='My Portfolio Logo'/>
+          <Navbar.Brand href="#home" className="nametitle">
+              My Portfolio
           </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
